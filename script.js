@@ -6,8 +6,8 @@ const cvData = {
   location: { en: "Hanoi, Vietnam", vi: "Hà Nội, Việt Nam" },
   linkedin: "https://www.linkedin.com/in/vu-van-duc",
   summary: {
-    en: "Fullstack Engineer with 5+ years of experience building scalable web applications across banking, Web3, enterprise systems, social platforms, and e-commerce. Currently working on a 7-month VPBank banking project (06/2026 – 12/2026) with Java Spring Boot, ASP.NET, React, and Angular. Experienced in React, Next.js, Vue.js, Node.js, NestJS, and PostgreSQL, with a focus on clean architecture, performance, and production-ready products.",
-    vi: "Kỹ sư Fullstack với hơn 5 năm kinh nghiệm phát triển ứng dụng web có khả năng mở rộng trong lĩnh vực ngân hàng, Web3, hệ thống doanh nghiệp, mạng xã hội và thương mại điện tử. Hiện đang tham gia dự án ngân hàng VPBank kéo dài 7 tháng (06/2026 – 12/2026), sử dụng Java Spring Boot, ASP.NET, React và Angular. Có kinh nghiệm với React, Next.js, Vue.js, Node.js, NestJS và PostgreSQL; tập trung vào kiến trúc rõ ràng, hiệu năng và sản phẩm sẵn sàng vận hành."
+    en: "Fullstack Engineer with 5+ years of experience building scalable web applications across banking, Web3, enterprise systems, social platforms, and e-commerce. Currently working on a 7-month VPBank banking project (06/2026 – 12/2026) with Java Spring Boot, ASP.NET, React, and Angular. Experienced in React, Next.js, Vue.js, Node.js, NestJS, Java Spring Boot, and PostgreSQL, with a focus on clean architecture, performance, and production-ready products.",
+    vi: "Kỹ sư Fullstack với hơn 5 năm kinh nghiệm phát triển ứng dụng web có khả năng mở rộng trong lĩnh vực ngân hàng, Web3, hệ thống doanh nghiệp, mạng xã hội và thương mại điện tử. Hiện đang tham gia dự án ngân hàng VPBank kéo dài 7 tháng (06/2026 – 12/2026), sử dụng Java Spring Boot, ASP.NET, React và Angular. Có kinh nghiệm với React, Next.js, Vue.js, Node.js, NestJS, Java Spring Boot và PostgreSQL; tập trung vào kiến trúc rõ ràng, hiệu năng và sản phẩm sẵn sàng vận hành."
   },
   experience: [
     {
@@ -70,7 +70,7 @@ const cvData = {
         { en: "Built scalable APIs and reusable UI components for internal business systems.", vi: "Xây dựng API có khả năng mở rộng và UI component tái sử dụng cho hệ thống nội bộ." },
         { en: "Improved system reliability and resolved critical production issues.", vi: "Nâng cao độ ổn định hệ thống và xử lý các sự cố production nghiêm trọng." }
       ],
-      tags: ["Spring Boot", "React", "Angular", "REST APIs", "MySQL"]
+      tags: ["Java Spring Boot", "React", "Angular", "REST APIs", "MySQL"]
     }
   ],
   projects: [
@@ -89,7 +89,7 @@ const cvData = {
   ],
   skills: [
     { label: { en: "Frontend", vi: "Frontend" }, values: "React, Next.js, Vue.js, Angular, TypeScript, JavaScript (ES6+)" },
-    { label: { en: "Backend", vi: "Backend" }, values: "Node.js, NestJS, Spring Boot, ASP.NET, REST APIs" },
+    { label: { en: "Backend", vi: "Backend" }, values: "Node.js, NestJS, Java Spring Boot, ASP.NET, REST APIs" },
     { label: { en: "State & data", vi: "State & dữ liệu" }, values: "Redux, React Query, Zustand, GraphQL" },
     { label: { en: "Database", vi: "Cơ sở dữ liệu" }, values: "PostgreSQL, MySQL, MongoDB" },
     { label: { en: "Tools & practices", vi: "Công cụ & quy trình" }, values: "Git, Docker, CI/CD, GitHub Actions, SEO, performance optimization, Agile/Scrum" },
@@ -117,7 +117,6 @@ function render() {
   document.title = `${cvData.name[language]} — ${t.role}`;
   document.querySelector('meta[name="description"]').content = cvData.summary[language];
   document.querySelector('meta[property="og:title"]').content = document.title;
-  document.querySelector('meta[property="og:description"]').content = cvData.summary[language];
   document.querySelectorAll("[data-i18n]").forEach((element) => { element.textContent = t[element.dataset.i18n]; });
   document.querySelectorAll('[data-field="summary"]').forEach((element) => { element.textContent = cvData.summary[language]; });
   document.getElementById("language-toggle").textContent = language === "en" ? "VI" : "EN";

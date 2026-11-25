@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6f4">
+  <meta name="description" content="Vu Van Duc — Fullstack Engineer with 5+ years of experience building scalable web applications across banking, Web3, enterprise systems, social platforms, and e-commerce.">
+  <meta name="author" content="Vu Van Duc">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Vu Van Duc — Fullstack Engineer">
+  <meta property="og:description" content="Fullstack Engineer building scalable web products with React, Next.js, Node.js, and NestJS.">
+  <meta property="og:locale" content="en_US">
+  <meta property="profile:first_name" content="Van Duc">
+  <meta property="profile:last_name" content="Vu">
+  <title>Vu Van Duc — Fullstack Engineer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23087f68'/%3E%3Ctext x='32' y='41' font-family='Arial,sans-serif' font-size='24' font-weight='700' fill='%23fff' text-anchor='middle'%3EVD%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json" id="structured-data"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Vu Van Duc home"><span class="brand-mark">VD</span><span>Vu Van Duc</span></a>
+    <nav class="toolbar" aria-label="Page controls">
+      <button class="text-button" id="language-toggle" type="button" aria-label="Switch language">VI</button>
+      <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle color theme"><span id="theme-icon" aria-hidden="true">◐</span></button>
+      <button class="print-button" id="print-button" type="button"><span aria-hidden="true">↗</span> <span data-i18n="print">Print CV</span></button>
+    </nav>
+  </header>
+  <main id="main" class="page-shell">
+    <section class="hero" id="top" aria-labelledby="name">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span><span data-i18n="availability">OPEN TO OPPORTUNITIES</span></p>
+        <h1 id="name">Vu Van Duc<span class="accent">.</span></h1>
+        <p class="role" data-i18n="role">Fullstack Engineer</p>
+        <p class="intro" data-field="summary"></p>
+        <div class="hero-actions">
+          <a class="primary-link" href="mailto:vanducv739@gmail.com"><span data-i18n="contact">Get in touch</span><span aria-hidden="true">↗</span></a>
+          <a class="secondary-link" href="https://www.linkedin.com/in/vu-van-duc" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <aside class="contact-card" aria-label="Contact details">
+        <p class="card-label" data-i18n="contactLabel">CONTACT</p>
+        <a href="mailto:vanducv739@gmail.com">vanducv739@gmail.com</a>
+        <a href="tel:+84345329573">+84 345 329 573</a>
+        <a href="https://www.linkedin.com/in/vu-van-duc" target="_blank" rel="noreferrer">linkedin.com/in/vu-van-duc</a>
+        <span data-i18n="location">Hanoi, Vietnam</span>
+        <span class="card-divider"></span>
+        <span class="card-label" data-i18n="focusLabel">FOCUS</span>
+        <span data-i18n="focus">Web products · Scalable systems</span>
+      </aside>
+    </section>
+
+    <section class="content-section" aria-labelledby="experience-heading">
+      <div class="section-heading"><span class="section-index">01</span><h2 id="experience-heading" data-i18n="experienceTitle">Experience</h2></div>
+      <div class="timeline" id="experience-list"></div>
+    </section>
+
+    <section class="content-section keep-together" aria-labelledby="projects-heading">
+      <div class="section-heading"><span class="section-index">02</span><h2 id="projects-heading" data-i18n="projectsTitle">Personal project</h2></div>
+      <div id="project-list" class="project-list"></div>
+    </section>
+
+    <section class="content-section lower-grid">
+      <div>
+        <div class="section-heading"><span class="section-index">03</span><h2 data-i18n="skillsTitle">Skills</h2></div>
+        <div id="skills-list" class="skills-list"></div>
+      </div>
+      <div>
+        <div class="section-heading"><span class="section-index">04</span><h2 data-i18n="educationTitle">Education</h2></div>
+        <div id="education-list" class="education-list"></div>
+      </div>
+    </section>
+    <footer class="footer"><span>© <span id="year"></span> Vu Van Duc</span><a href="#top" data-i18n="backToTop">Back to top ↑</a><span class="footer-note" data-i18n="footerNote">Designed to print beautifully.</span></footer>
+  </main>
+</body>
+</html>

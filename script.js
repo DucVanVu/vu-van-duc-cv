@@ -6,12 +6,12 @@ const cvData = {
   location: { en: "Hanoi, Vietnam", vi: "Hà Nội, Việt Nam" },
   linkedin: "https://www.linkedin.com/in/vu-van-duc",
   summary: {
-    en: "Fullstack Engineer with 5+ years of experience building scalable web applications across banking, Web3, enterprise systems, social platforms, and e-commerce. Currently working on a 7-month VPBank banking project (06/2026 – 12/2026) with Java Spring Boot, ASP.NET, React, and Angular. Experienced in React, Next.js, Vue.js, Node.js, NestJS, Java Spring Boot, and PostgreSQL, with a focus on clean architecture, performance, and production-ready products.",
-    vi: "Kỹ sư Fullstack với hơn 5 năm kinh nghiệm phát triển ứng dụng web có khả năng mở rộng trong lĩnh vực ngân hàng, Web3, hệ thống doanh nghiệp, mạng xã hội và thương mại điện tử. Hiện đang tham gia dự án ngân hàng VPBank kéo dài 7 tháng (06/2026 – 12/2026), sử dụng Java Spring Boot, ASP.NET, React và Angular. Có kinh nghiệm với React, Next.js, Vue.js, Node.js, NestJS, Java Spring Boot và PostgreSQL; tập trung vào kiến trúc rõ ràng, hiệu năng và sản phẩm sẵn sàng vận hành."
+    en: "Fullstack Engineer with 5+ years of experience building scalable web applications across banking, Web3, enterprise systems, social platforms, and e-commerce. Currently working on a VPBank banking project (06/2026 – now) with Java Spring Boot, ASP.NET, React, and Angular. Experienced in React, Next.js, Vue.js, Node.js, NestJS, Java Spring Boot, and PostgreSQL, with a focus on clean architecture, performance, and production-ready products.",
+    vi: "Kỹ sư Fullstack với hơn 5 năm kinh nghiệm phát triển ứng dụng web có khả năng mở rộng trong lĩnh vực ngân hàng, Web3, hệ thống doanh nghiệp, mạng xã hội và thương mại điện tử. Hiện đang tham gia dự án ngân hàng VPBank (06/2026 – hiện tại), sử dụng Java Spring Boot, ASP.NET, React và Angular. Có kinh nghiệm với React, Next.js, Vue.js, Node.js, NestJS, Java Spring Boot và PostgreSQL; tập trung vào kiến trúc rõ ràng, hiệu năng và sản phẩm sẵn sàng vận hành."
   },
   experience: [
     {
-      company: "VPBank", role: { en: "Fullstack Engineer", vi: "Kỹ sư Fullstack" }, date: "06/2026 – 12/2026",
+      company: "VPBank", role: { en: "Fullstack Engineer", vi: "Kỹ sư Fullstack" }, date: "06/2026 – now",
       context: { en: "Banking project", vi: "Dự án ngân hàng" },
       summary: { en: "A banking system for VPBank, delivered by a lean team where developers also own deployment and testing.", vi: "Hệ thống nghiệp vụ ngân hàng cho VPBank, phát triển bởi một team tinh gọn trong đó developer kiêm luôn triển khai và kiểm thử." },
       highlights: [

@@ -6,22 +6,22 @@ const cvData = {
   location: { en: "Hanoi, Vietnam", vi: "Hà Nội, Việt Nam" },
   linkedin: "https://www.linkedin.com/in/vu-van-duc",
   summary: {
-    en: "Fullstack Engineer with 5+ years of experience building scalable web applications across banking, Web3, enterprise systems, social platforms, and e-commerce. Currently working on a VPBank banking project (06/2026 – now) with Java Spring Boot, ASP.NET, React, and Angular. Experienced in React, Next.js, Vue.js, Node.js, NestJS, Java Spring Boot, and PostgreSQL, with a focus on clean architecture, performance, and production-ready products.",
-    vi: "Kỹ sư Fullstack với hơn 5 năm kinh nghiệm phát triển ứng dụng web có khả năng mở rộng trong lĩnh vực ngân hàng, Web3, hệ thống doanh nghiệp, mạng xã hội và thương mại điện tử. Hiện đang tham gia dự án ngân hàng VPBank (06/2026 – hiện tại), sử dụng Java Spring Boot, ASP.NET, React và Angular. Có kinh nghiệm với React, Next.js, Vue.js, Node.js, NestJS, Java Spring Boot và PostgreSQL; tập trung vào kiến trúc rõ ràng, hiệu năng và sản phẩm sẵn sàng vận hành."
+    en: "Fullstack Engineer with 5+ years of experience building web applications across banking, e-commerce, and Web3. Currently developing banking features for VPBank using Java Spring Boot, ASP.NET, React, and Angular.",
+    vi: "Kỹ sư Fullstack với hơn 5 năm kinh nghiệm phát triển ứng dụng web trong lĩnh vực ngân hàng, thương mại điện tử và Web3. Hiện đang phát triển các tính năng ngân hàng cho VPBank với Java Spring Boot, ASP.NET, React và Angular."
   },
   experience: [
     {
-      company: "VPBank", role: { en: "Fullstack Engineer", vi: "Kỹ sư Fullstack" }, date: "06/2026 – now",
-      context: { en: "Banking project", vi: "Dự án ngân hàng" },
-      summary: { en: "A banking system for VPBank, delivered by a lean team where developers also own deployment and testing.", vi: "Hệ thống nghiệp vụ ngân hàng cho VPBank, phát triển bởi một team tinh gọn trong đó developer kiêm luôn triển khai và kiểm thử." },
+      company: "VPBank", role: { en: "Fullstack Engineer", vi: "Kỹ sư Fullstack" }, date: "06/2026 – Present",
+      context: { en: "Internal banking systems", vi: "Hệ thống nội bộ ngân hàng" },
+      summary: { en: "Internal systems for VPBank covering data processing, notarization, legal-fee tracking, and document management.", vi: "Các hệ thống nội bộ của VPBank về xử lý dữ liệu, công chứng, theo dõi án phí và quản lý văn bản." },
       highlights: [
-        { en: "Developed backend services and REST APIs with Java Spring Boot and ASP.NET for banking workflows.", vi: "Phát triển dịch vụ backend và REST API bằng Java Spring Boot và ASP.NET cho các nghiệp vụ ngân hàng." },
-        { en: "Built frontend features in React and Angular and integrated them with backend services.", vi: "Xây dựng tính năng frontend bằng React và Angular, tích hợp với các dịch vụ backend." },
-        { en: "Worked directly with the System Analyst to turn business requirements into technical solutions.", vi: "Làm việc trực tiếp với System Analyst để chuyển yêu cầu nghiệp vụ thành giải pháp kỹ thuật." },
-        { en: "Owned deployment (DevOps) and testing (QC) for my features alongside development.", vi: "Đảm nhận cả triển khai (DevOps) và kiểm thử (QC) cho các tính năng mình phát triển." },
-        { en: "Followed the strict security and code-review standards of the banking domain.", vi: "Tuân thủ các tiêu chuẩn bảo mật và code review nghiêm ngặt của lĩnh vực ngân hàng." }
+        { en: "Built SQL data-processing jobs on SQL Server using SQL Server Data Tools (SSDT) to prepare data for downstream banking systems.", vi: "Xây dựng các job xử lý dữ liệu bằng SQL trên SQL Server với SQL Server Data Tools (SSDT), chuẩn bị dữ liệu cho các hệ thống nghiệp vụ." },
+        { en: "Developed the bank's notarization portal end to end, from backend APIs to the user interface.", vi: "Phát triển trang công chứng của ngân hàng từ API backend đến giao diện người dùng." },
+        { en: "Built an alerting tool that flags cases eligible for refund of court-fee advances.", vi: "Xây dựng công cụ cảnh báo các hồ sơ đủ điều kiện hoàn tạm ứng án phí." },
+        { en: "Built a document management module with automatic document numbering.", vi: "Xây dựng module quản lý văn bản với cơ chế sinh số văn bản tự động." },
+        { en: "Worked directly with the System Analyst on requirements, and owned deployment (DevOps) and testing (QC) for my features.", vi: "Làm việc trực tiếp với System Analyst về yêu cầu nghiệp vụ; đảm nhận cả triển khai (DevOps) và kiểm thử (QC) cho các tính năng mình phát triển." }
       ],
-      tags: ["Java Spring Boot", "ASP.NET", "React", "Angular"]
+      tags: ["Java Spring Boot", "ASP.NET", "React", "Angular", "SQL Server", "SSDT"]
     },
     {
       company: "Bino Media", role: { en: "Frontend Engineer", vi: "Kỹ sư Frontend" }, date: "11/2025 – 05/2026", team: 7,
@@ -30,8 +30,7 @@ const cvData = {
       highlights: [
         { en: "Developed scalable frontend features using React and Next.js.", vi: "Phát triển các tính năng frontend có khả năng mở rộng với React và Next.js." },
         { en: "Integrated GraphQL APIs for efficient data synchronization and state management.", vi: "Tích hợp GraphQL API để đồng bộ dữ liệu và quản lý state hiệu quả." },
-        { en: "Improved page load performance and responsiveness, reducing load time by 30%.", vi: "Tối ưu hiệu năng và độ phản hồi, giảm 30% thời gian tải trang." },
-        { en: "Collaborated with product managers, backend engineers, and QA teams.", vi: "Phối hợp cùng product manager, kỹ sư backend và đội QA." }
+        { en: "Reduced page load time by 30% and improved Core Web Vitals (LCP, CLS) through lazy loading, code splitting, and image optimization.", vi: "Giảm 30% thời gian tải trang và cải thiện Core Web Vitals (LCP, CLS) nhờ lazy loading, code splitting và tối ưu ảnh." }
       ],
       tags: ["React", "Next.js", "GraphQL", "TypeScript", "Zustand", "React Query"]
     },
@@ -42,8 +41,7 @@ const cvData = {
       highlights: [
         { en: "Led fullstack development, designing a scalable frontend architecture and integrating backend services.", vi: "Dẫn dắt phát triển fullstack, thiết kế kiến trúc frontend có khả năng mở rộng và tích hợp các dịch vụ backend." },
         { en: "Built reusable UI components and RESTful APIs for product and order management.", vi: "Xây dựng thư viện UI component tái sử dụng và REST API quản lý sản phẩm, đơn hàng." },
-        { en: "Implemented complex business logic across frontend and backend services.", vi: "Hiện thực các logic nghiệp vụ phức tạp xuyên suốt frontend và backend." },
-        { en: "Improved performance and UX through frontend and backend optimization.", vi: "Cải thiện hiệu năng và trải nghiệm người dùng qua tối ưu cả frontend lẫn backend." }
+        { en: "Implemented complex business logic across frontend and backend services.", vi: "Hiện thực các logic nghiệp vụ phức tạp xuyên suốt frontend và backend." }
       ],
       tags: ["Vue.js", "React", "Node.js", "REST APIs"]
     },
@@ -56,7 +54,7 @@ const cvData = {
         { en: "Built optimized React and Next.js interfaces for seamless wallet interaction.", vi: "Xây dựng giao diện React và Next.js tối ưu cho trải nghiệm kết nối ví mượt mà." },
         { en: "Designed NestJS backend services for Web3 data processing and API integration.", vi: "Thiết kế dịch vụ backend NestJS xử lý dữ liệu Web3 và tích hợp API." },
         { en: "Indexed and queried on-chain data with SubQuery and GraphQL for real-time updates.", vi: "Index và truy vấn dữ liệu on-chain bằng SubQuery và GraphQL để cập nhật theo thời gian thực." },
-        { en: "Improved application performance, reducing load time by approximately 30%.", vi: "Cải thiện hiệu năng ứng dụng, giảm khoảng 30% thời gian tải." },
+        { en: "Cut load time by approximately 30% by optimizing database queries and backend code, plus lazy loading and code splitting on the frontend.", vi: "Giảm khoảng 30% thời gian tải nhờ tối ưu truy vấn cơ sở dữ liệu và code backend, kết hợp lazy loading và code splitting ở frontend." },
         { en: "Contributed reusable architecture and scalable components across multiple Web3 products.", vi: "Đóng góp kiến trúc tái sử dụng và component có khả năng mở rộng cho nhiều sản phẩm Web3." }
       ],
       tags: ["React", "Next.js", "NestJS", "GraphQL", "SubQuery", "PostgreSQL"]
@@ -91,7 +89,7 @@ const cvData = {
     { label: { en: "Frontend", vi: "Frontend" }, values: "React, Next.js, Vue.js, Angular, TypeScript, JavaScript (ES6+)" },
     { label: { en: "Backend", vi: "Backend" }, values: "Node.js, NestJS, Java Spring Boot, ASP.NET, REST APIs" },
     { label: { en: "State & data", vi: "State & dữ liệu" }, values: "Redux, React Query, Zustand, GraphQL" },
-    { label: { en: "Database", vi: "Cơ sở dữ liệu" }, values: "PostgreSQL, MySQL, MongoDB" },
+    { label: { en: "Database", vi: "Cơ sở dữ liệu" }, values: "PostgreSQL, MySQL, SQL Server, MongoDB" },
     { label: { en: "Tools & practices", vi: "Công cụ & quy trình" }, values: "Git, Docker, CI/CD, GitHub Actions, SEO, performance optimization, Agile/Scrum" },
     { label: { en: "AI-assisted development", vi: "Phát triển với AI" }, featured: true, values: ["Claude Code", "Codex", "Gemini", "Antigravity", "Cursor"] }
   ],
